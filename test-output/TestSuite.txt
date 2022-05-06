@@ -1,4 +1,19 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 124.028 sec - in TestSuite
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 267.582 sec <<< FAILURE! - in TestSuite
+SucessfullySignUp(com.index.SignUpIndex)  Time elapsed: 115.678 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Timed out after 80 seconds. Unable to locate the element
+	at com.index.SignUpIndex.SucessfullySignUp(SignUpIndex.java:66)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@src="/static/media/uk.4dcc5075.jpg"]"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-GKA213I', ip: '192.168.1.131', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:60243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 54f846fa684a0a1a8e8bc74e3292dba4
+*** Element info: {Using=xpath, value=//*[@src="/static/media/uk.4dcc5075.jpg"]}
+	at com.index.SignUpIndex.SucessfullySignUp(SignUpIndex.java:66)
+
