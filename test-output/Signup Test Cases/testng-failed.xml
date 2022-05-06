@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" verbose="10" name="Failed suite [Signup Test Cases]" allow-return-values="true">
+  <parameter name="selenium.port" value="4444"/>
+  <parameter name="selenium.host" value="localhost"/>
+  <parameter name="selenium.browser" value="chrome"/>
+  <parameter name="selenium.url" value="https://www.filechannels.net/login"/>
+  <listeners>
+    <listener class-name="com.utility.CustomReporterEmailBuildSummary"/>
+    <listener class-name="com.utility.CustomReporterforEmail"/>
+    <listener class-name="com.utility.CustomReporterBuildSummary"/>
+  </listeners>
+  <test thread-count="4" verbose="10" name="TC-3. Verify &#039;Account created sucessfully validation message&#039;.(failed)">
+    <classes>
+      <class name="com.index.SignUpIndex">
+        <methods>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="one"/>
+          <include name="testResults"/>
+          <include name="SucessfullySignUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.index.SignUpIndex -->
+    </classes>
+  </test> <!-- TC-3. Verify 'Account created sucessfully validation message'.(failed) -->
+</suite> <!-- Failed suite [Signup Test Cases] -->
