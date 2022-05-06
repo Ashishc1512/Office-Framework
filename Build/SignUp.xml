@@ -27,7 +27,7 @@
 
  </listeners>  
 
-	<test name="TC-1. Verify incorrect email validation message.">		
+	<test name="TC-1.. Verify incorrect email validation message.">		
 		<classes>
 			<class name="com.index.SignUpIndex">
 				<methods>
