@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="209.468" tests="3" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="143.787" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_121\jre\bin"/>
@@ -62,41 +62,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="InvalidEmail" classname="com.index.SignUpIndex" time="9.222"/>
-  <testcase name="EmailExist" classname="com.index.SignUpIndex" time="11.658"/>
-  <testcase name="SucessfullySignUp" classname="com.index.SignUpIndex" time="115.625">
-    <failure message="Timed out after 80 seconds. Unable to locate the element" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Timed out after 80 seconds. Unable to locate the element
-	at com.index.SignUpIndex.SucessfullySignUp(SignUpIndex.java:66)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//*[@src="/static/media/uk.4dcc5075.jpg"]"}
-  (Session info: chrome=101.0.4951.54)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'DESKTOP-GKA213I', ip: '192.168.1.131', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:59233}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 52717462fb427ea52e53c3d1fbec15bb
-*** Element info: {Using=xpath, value=//*[@src="/static/media/uk.4dcc5075.jpg"]}
-	at com.index.SignUpIndex.SucessfullySignUp(SignUpIndex.java:66)
-</failure>
-    <system-out><![CDATA[TEST PASSED - EmailExist
-
---------------- Test status : 1 ---------------
-======current test- TC-3. Verify 'Account created sucessfully validation message'.======
-Current Xml Suite is:---->Signup Test Cases
-chrome
-========= Google Chrome Browser ==========
-Current Window Handle ID:--->CDwindow-2262281DAFB300A44409E62D3FA9AB21
-]]></system-out>
-    <system-err><![CDATA[May 06, 2022 5:42:27 PM org.openqa.selenium.remote.DesiredCapabilities chrome
-INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 35645
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1651839148.710][WARNING]: This version of ChromeDriver has not been tested with Chrome version 101.
-May 06, 2022 5:42:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
+  <testcase name="InvalidEmail" classname="com.index.SignUpIndex" time="9.318"/>
+  <testcase name="EmailExist" classname="com.index.SignUpIndex" time="11.667"/>
+  <testcase name="SucessfullySignUp" classname="com.index.SignUpIndex" time="57.327"/>
 </testsuite>
