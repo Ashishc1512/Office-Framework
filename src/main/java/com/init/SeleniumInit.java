@@ -49,9 +49,11 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
 import com.indexPage.LoginIndexPage;
+import com.indexPage.SignUpIndexPage;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.verificationPage.LoginVerificationPage;
+import com.verificationPage.SignUpVerificationPage;
 
 public class SeleniumInit {
 
@@ -100,6 +102,9 @@ public class SeleniumInit {
 	public  LoginIndexPage loginIndexPage;
 	public  LoginVerificationPage loginVerificationPage;
 //	
+	public SignUpIndexPage signupindesPage;
+	public SignUpVerificationPage signupVerificationPage;
+	
 //	public  DashboardIndexPage dashboardIndexPage;
 //	public  DashboardVerificationPage dashboardVerificationPage;
 //	
@@ -338,6 +343,9 @@ public class SeleniumInit {
 //			
 			loginIndexPage = new LoginIndexPage(driver);
 			loginVerificationPage = new LoginVerificationPage(driver);
+			
+			signupindesPage = new SignUpIndexPage (driver);
+			signupVerificationPage = new SignUpVerificationPage (driver);
 //			
 //			dashboardIndexPage = new DashboardIndexPage(driver);
 //			dashboardVerificationPage = new DashboardVerificationPage(driver);

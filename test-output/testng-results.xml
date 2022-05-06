@@ -1,282 +1,216 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="2" passed="0">
+<testng-results skipped="0" failed="0" ignored="6" total="9" passed="3">
   <reporter-output>
     <line>
-      <![CDATA[<br>current test- TC-1. Login validation.]]>
+      <![CDATA[<br>current test- TC-1. Verify incorrect email validation message.]]>
     </line>
     <line>
-      <![CDATA[Current Xml Suite is:---->Login Test Cases]]>
+      <![CDATA[Current Xml Suite is:---->Signup Test Cases]]>
     </line>
     <line>
-      <![CDATA[<br></br><Strong><font color=#ff0000>Fail                  </font></strong><img src='C:\Users\KALPESH\git\FrameworkDemo\FrameworkDemo\report-imgs\fail.png' alt='fail' height='15' width='15'/>]]>
+      <![CDATA[<br>Step 1 : Verify incorrect email validation message.<br>]]>
     </line>
     <line>
-      <![CDATA[<br><b><i>Failure Reason:</b></i>]]>
+      <![CDATA[<br>current test- TC-2. Verify email exist validation message.]]>
     </line>
     <line>
-      <![CDATA[<br><Strong><font color=#ff0000>java.lang.NoClassDefFoundError: org/openxmlformats/schemas/drawingml/x2006/main/ThemeDocument</font></strong>]]>
+      <![CDATA[Current Xml Suite is:---->Signup Test Cases]]>
     </line>
     <line>
-      <![CDATA[<br>current test- TC-2. Negative Login validation.]]>
+      <![CDATA[<br>Step 1 : Verify exist email validation message.<br>]]>
     </line>
     <line>
-      <![CDATA[Current Xml Suite is:---->Login Test Cases]]>
+      <![CDATA[<br>current test- TC-3. Verify 'Account created sucessfully validation message'.]]>
     </line>
     <line>
-      <![CDATA[<br></br><Strong><font color=#ff0000>Fail                  </font></strong><img src='C:\Users\KALPESH\git\FrameworkDemo\FrameworkDemo\report-imgs\fail.png' alt='fail' height='15' width='15'/>]]>
+      <![CDATA[Current Xml Suite is:---->Signup Test Cases]]>
     </line>
     <line>
-      <![CDATA[<br><b><i>Failure Reason:</b></i>]]>
-    </line>
-    <line>
-      <![CDATA[<br><Strong><font color=#ff0000>java.lang.NoClassDefFoundError: org/openxmlformats/schemas/drawingml/x2006/main/ThemeDocument</font></strong>]]>
+      <![CDATA[<br>Step 1 : Verify 'Accout created sucessfully'validation message.<br>]]>
     </line>
   </reporter-output>
-  <suite name="Login Test Cases" duration-ms="22380" started-at="2021-07-15T10:22:45Z" finished-at="2021-07-15T10:23:07Z">
+  <suite name="Signup Test Cases" duration-ms="121854" started-at="2022-05-06T06:09:05Z" finished-at="2022-05-06T06:11:07Z">
     <groups>
     </groups>
-    <test name="TC-1. Login validation." duration-ms="12401" started-at="2021-07-15T10:22:45Z" finished-at="2021-07-15T10:22:57Z">
-      <class name="com.index.LoginIndex">
-        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.LoginIndex@1e84876]" name="one" is-config="true" duration-ms="0" started-at="2021-07-15T15:52:45Z" finished-at="2021-07-15T15:52:45Z">
+    <test name="TC-1. Verify incorrect email validation message." duration-ms="25770" started-at="2022-05-06T06:09:05Z" finished-at="2022-05-06T06:09:31Z">
+      <class name="com.index.SignUpIndex">
+        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@13a3d88]" name="one" is-config="true" duration-ms="0" started-at="2022-05-06T06:09:05Z" finished-at="2022-05-06T06:09:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@97cac]]>
+                <![CDATA[org.testng.TestRunner@27af16]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- one -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.LoginIndex@1e84876]" name="setUp" is-config="true" duration-ms="8685" started-at="2021-07-15T15:52:45Z" finished-at="2021-07-15T15:52:53Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@13a3d88]" name="setUp" is-config="true" duration-ms="11216" started-at="2022-05-06T06:09:05Z" finished-at="2022-05-06T06:09:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.index.LoginIndex.login() throws java.lang.Exception]]>
+                <![CDATA[public void com.index.SignUpIndex.InvalidEmail() throws java.lang.Exception]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@97cac]]>
+                <![CDATA[org.testng.TestRunner@27af16]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<br>current test- TC-1. Login validation.]]>
+              <![CDATA[<br>current test- TC-1. Verify incorrect email validation message.]]>
             </line>
             <line>
-              <![CDATA[Current Xml Suite is:---->Login Test Cases]]>
+              <![CDATA[Current Xml Suite is:---->Signup Test Cases]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="login()[pri:0, instance:com.index.LoginIndex@1e84876]" name="login" duration-ms="3133" started-at="2021-07-15T15:52:53Z" finished-at="2021-07-15T15:52:57Z">
-          <exception class="java.lang.NoClassDefFoundError">
-            <message>
-              <![CDATA[org/openxmlformats/schemas/drawingml/x2006/main/ThemeDocument]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NoClassDefFoundError: org/openxmlformats/schemas/drawingml/x2006/main/ThemeDocument
-	at java.lang.Class.getDeclaredConstructors0(Native Method)
-	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
-	at java.lang.Class.getConstructor0(Class.java:3075)
-	at java.lang.Class.getDeclaredConstructor(Class.java:2178)
-	at org.apache.poi.xssf.usermodel.XSSFFactory.createDocumentPart(XSSFFactory.java:55)
-	at org.apache.poi.POIXMLFactory.createDocumentPart(POIXMLFactory.java:58)
-	at org.apache.poi.POIXMLDocumentPart.read(POIXMLDocumentPart.java:580)
-	at org.apache.poi.POIXMLDocument.load(POIXMLDocument.java:165)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:300)
-	at com.init.Common.getCellValue(Common.java:781)
-	at com.index.LoginIndex.login(LoginIndex.java:18)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
-	at org.testng.TestNG.run(TestNG.java:1024)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-Caused by: java.lang.ClassNotFoundException: org.openxmlformats.schemas.drawingml.x2006.main.ThemeDocument
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	... 38 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NoClassDefFoundError -->
+        <test-method status="PASS" signature="InvalidEmail()[pri:0, instance:com.index.SignUpIndex@13a3d88]" name="InvalidEmail" duration-ms="9689" started-at="2022-05-06T06:09:16Z" finished-at="2022-05-06T06:09:26Z">
           <reporter-output>
             <line>
-              <![CDATA[<br></br><Strong><font color=#ff0000>Fail                  </font></strong><img src='C:\Users\KALPESH\git\FrameworkDemo\FrameworkDemo\report-imgs\fail.png' alt='fail' height='15' width='15'/>]]>
-            </line>
-            <line>
-              <![CDATA[<br><b><i>Failure Reason:</b></i>]]>
-            </line>
-            <line>
-              <![CDATA[<br><Strong><font color=#ff0000>java.lang.NoClassDefFoundError: org/openxmlformats/schemas/drawingml/x2006/main/ThemeDocument</font></strong>]]>
+              <![CDATA[<br>Step 1 : Verify incorrect email validation message.<br>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.LoginIndex@1e84876]" name="tearDown" is-config="true" duration-ms="388" started-at="2021-07-15T15:52:57Z" finished-at="2021-07-15T15:52:57Z">
+        </test-method> <!-- InvalidEmail -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.SignUpIndex@13a3d88]" name="tearDown" is-config="true" duration-ms="4845" started-at="2022-05-06T06:09:26Z" finished-at="2022-05-06T06:09:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=login status=FAILURE method=LoginIndex.login()[pri:0, instance:com.index.LoginIndex@1e84876] output=<br></br><Strong><font color=#ff0000>Fail                  </font></strong><img src='C:\Users\KALPESH\git\FrameworkDemo\FrameworkDemo\report-imgs\fail.png' alt='fail' height='15' width='15'/>]]]>
+                <![CDATA[[TestResult name=InvalidEmail status=SUCCESS method=SignUpIndex.InvalidEmail()[pri:0, instance:com.index.SignUpIndex@13a3d88] output=<br>Step 1 : Verify incorrect email validation message.<br>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.index.LoginIndex -->
-    </test> <!-- TC-1. Login validation. -->
-    <test name="TC-2. Negative Login validation." duration-ms="9943" started-at="2021-07-15T10:22:57Z" finished-at="2021-07-15T10:23:07Z">
-      <class name="com.index.LoginIndex">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.index.LoginIndex@e2abd]" name="fetchSuiteConfiguration" is-config="true" duration-ms="1515" started-at="2021-07-15T15:52:43Z" finished-at="2021-07-15T15:52:45Z">
+      </class> <!-- com.index.SignUpIndex -->
+    </test> <!-- TC-1. Verify incorrect email validation message. -->
+    <test name="TC-2. Verify email exist validation message." duration-ms="27333" started-at="2022-05-06T06:09:31Z" finished-at="2022-05-06T06:09:58Z">
+      <class name="com.index.SignUpIndex">
+        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@150c158]" name="one" is-config="true" duration-ms="1" started-at="2022-05-06T06:09:31Z" finished-at="2022-05-06T06:09:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@cb4b1b]]>
+                <![CDATA[org.testng.TestRunner@104476e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- one -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@150c158]" name="setUp" is-config="true" duration-ms="10770" started-at="2022-05-06T06:09:31Z" finished-at="2022-05-06T06:09:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.index.SignUpIndex.EmailExist() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@104476e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>current test- TC-2. Verify email exist validation message.]]>
+            </line>
+            <line>
+              <![CDATA[Current Xml Suite is:---->Signup Test Cases]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="EmailExist()[pri:0, instance:com.index.SignUpIndex@150c158]" name="EmailExist" duration-ms="11699" started-at="2022-05-06T06:09:42Z" finished-at="2022-05-06T06:09:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 1 : Verify exist email validation message.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EmailExist -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.SignUpIndex@150c158]" name="tearDown" is-config="true" duration-ms="4857" started-at="2022-05-06T06:09:53Z" finished-at="2022-05-06T06:09:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EmailExist status=SUCCESS method=SignUpIndex.EmailExist()[pri:0, instance:com.index.SignUpIndex@150c158] output=<br>Step 1 : Verify exist email validation message.<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.index.SignUpIndex -->
+    </test> <!-- TC-2. Verify email exist validation message. -->
+    <test name="TC-3. Verify &#039;Account created sucessfully validation message&#039;." duration-ms="68700" started-at="2022-05-06T06:09:58Z" finished-at="2022-05-06T06:11:07Z">
+      <class name="com.index.SignUpIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@b21112]" name="fetchSuiteConfiguration" is-config="true" duration-ms="212" started-at="2022-05-06T06:09:05Z" finished-at="2022-05-06T06:09:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2fad19]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.LoginIndex@e2abd]" name="setUp" is-config="true" duration-ms="9918" started-at="2021-07-15T15:52:57Z" finished-at="2021-07-15T15:53:07Z">
+        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@b21112]" name="one" is-config="true" duration-ms="1" started-at="2022-05-06T06:09:58Z" finished-at="2022-05-06T06:09:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.index.LoginIndex.login_negative() throws java.lang.Exception]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@cb4b1b]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[<br>current test- TC-2. Negative Login validation.]]>
-            </line>
-            <line>
-              <![CDATA[Current Xml Suite is:---->Login Test Cases]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.LoginIndex@e2abd]" name="one" is-config="true" duration-ms="0" started-at="2021-07-15T15:52:57Z" finished-at="2021-07-15T15:52:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@cb4b1b]]>
+                <![CDATA[org.testng.TestRunner@2fad19]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- one -->
-        <test-method status="FAIL" signature="login_negative()[pri:0, instance:com.index.LoginIndex@e2abd]" name="login_negative" duration-ms="25" started-at="2021-07-15T15:53:07Z" finished-at="2021-07-15T15:53:07Z">
-          <exception class="java.lang.NoClassDefFoundError">
-            <message>
-              <![CDATA[org/openxmlformats/schemas/drawingml/x2006/main/ThemeDocument]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NoClassDefFoundError: org/openxmlformats/schemas/drawingml/x2006/main/ThemeDocument
-	at java.lang.Class.getDeclaredConstructors0(Native Method)
-	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
-	at java.lang.Class.getConstructor0(Class.java:3075)
-	at java.lang.Class.getDeclaredConstructor(Class.java:2178)
-	at org.apache.poi.xssf.usermodel.XSSFFactory.createDocumentPart(XSSFFactory.java:55)
-	at org.apache.poi.POIXMLFactory.createDocumentPart(POIXMLFactory.java:58)
-	at org.apache.poi.POIXMLDocumentPart.read(POIXMLDocumentPart.java:580)
-	at org.apache.poi.POIXMLDocument.load(POIXMLDocument.java:165)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:300)
-	at com.init.Common.getCellValue(Common.java:781)
-	at com.index.LoginIndex.login_negative(LoginIndex.java:51)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
-	at org.testng.TestNG.run(TestNG.java:1024)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-Caused by: java.lang.ClassNotFoundException: org.openxmlformats.schemas.drawingml.x2006.main.ThemeDocument
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	... 38 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NoClassDefFoundError -->
-          <reporter-output>
-            <line>
-              <![CDATA[<br></br><Strong><font color=#ff0000>Fail                  </font></strong><img src='C:\Users\KALPESH\git\FrameworkDemo\FrameworkDemo\report-imgs\fail.png' alt='fail' height='15' width='15'/>]]>
-            </line>
-            <line>
-              <![CDATA[<br><b><i>Failure Reason:</b></i>]]>
-            </line>
-            <line>
-              <![CDATA[<br><Strong><font color=#ff0000>java.lang.NoClassDefFoundError: org/openxmlformats/schemas/drawingml/x2006/main/ThemeDocument</font></strong>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login_negative -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.LoginIndex@e2abd]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-07-15T15:53:07Z" finished-at="2021-07-15T15:53:07Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@b21112]" name="setUp" is-config="true" duration-ms="10220" started-at="2022-05-06T06:09:58Z" finished-at="2022-05-06T06:10:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=login_negative status=FAILURE method=LoginIndex.login_negative()[pri:0, instance:com.index.LoginIndex@e2abd] output=<br></br><Strong><font color=#ff0000>Fail                  </font></strong><img src='C:\Users\KALPESH\git\FrameworkDemo\FrameworkDemo\report-imgs\fail.png' alt='fail' height='15' width='15'/>]]]>
+                <![CDATA[public void com.index.SignUpIndex.SucessfullySignUp() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2fad19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>current test- TC-3. Verify 'Account created sucessfully validation message'.]]>
+            </line>
+            <line>
+              <![CDATA[Current Xml Suite is:---->Signup Test Cases]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SucessfullySignUp()[pri:0, instance:com.index.SignUpIndex@b21112]" name="SucessfullySignUp" duration-ms="57311" started-at="2022-05-06T06:10:08Z" finished-at="2022-05-06T06:11:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 1 : Verify 'Accout created sucessfully'validation message.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SucessfullySignUp -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.SignUpIndex@b21112]" name="tearDown" is-config="true" duration-ms="1164" started-at="2022-05-06T06:11:06Z" finished-at="2022-05-06T06:11:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SucessfullySignUp status=SUCCESS method=SignUpIndex.SucessfullySignUp()[pri:0, instance:com.index.SignUpIndex@b21112] output=<br>Step 1 : Verify 'Accout created sucessfully'validation message.<br>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="testResults()[pri:0, instance:com.index.LoginIndex@e2abd]" name="testResults" is-config="true" duration-ms="1242" started-at="2021-07-15T15:53:07Z" finished-at="2021-07-15T15:53:08Z">
+        <test-method status="PASS" signature="testResults()[pri:0, instance:com.index.SignUpIndex@b21112]" name="testResults" is-config="true" duration-ms="298" started-at="2022-05-06T06:11:07Z" finished-at="2022-05-06T06:11:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResults -->
-      </class> <!-- com.index.LoginIndex -->
-    </test> <!-- TC-2. Negative Login validation. -->
-  </suite> <!-- Login Test Cases -->
+      </class> <!-- com.index.SignUpIndex -->
+    </test> <!-- TC-3. Verify 'Account created sucessfully validation message'. -->
+  </suite> <!-- Signup Test Cases -->
 </testng-results>
