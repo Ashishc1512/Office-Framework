@@ -74,6 +74,8 @@ public class SignUpIndex extends SeleniumInit {
 		signupVerificationPage = signupindesPage.ScrollContinue();
 		Thread.sleep(2000);
 		
+		
+		
 		test.log(LogStatus.PASS, "Step " + (extentStepCount++) + " : Click on continue button");
 		signupVerificationPage = signupindesPage.ClickContinue();
 		Thread.sleep(2000);

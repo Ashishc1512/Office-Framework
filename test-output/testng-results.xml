@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="6" total="9" passed="3">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
     <line>
-      <![CDATA[<br>current test- TC-1. Verify incorrect email validation message.]]>
+      <![CDATA[<br>current test- TC-1.. Verify incorrect email validation message.]]>
     </line>
     <line>
       <![CDATA[Current Xml Suite is:---->Signup Test Cases]]>
@@ -29,23 +29,23 @@
       <![CDATA[<br>Step 1 : Verify 'Accout created sucessfully'validation message.<br>]]>
     </line>
   </reporter-output>
-  <suite name="Signup Test Cases" duration-ms="121854" started-at="2022-05-06T06:09:05Z" finished-at="2022-05-06T06:11:07Z">
+  <suite name="Signup Test Cases" duration-ms="122401" started-at="2022-05-06T11:02:17Z" finished-at="2022-05-06T11:04:19Z">
     <groups>
     </groups>
-    <test name="TC-1. Verify incorrect email validation message." duration-ms="25770" started-at="2022-05-06T06:09:05Z" finished-at="2022-05-06T06:09:31Z">
+    <test name="TC-1.. Verify incorrect email validation message." duration-ms="28105" started-at="2022-05-06T11:02:17Z" finished-at="2022-05-06T11:02:45Z">
       <class name="com.index.SignUpIndex">
-        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@13a3d88]" name="one" is-config="true" duration-ms="0" started-at="2022-05-06T06:09:05Z" finished-at="2022-05-06T06:09:05Z">
+        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@190c9c3]" name="one" is-config="true" duration-ms="0" started-at="2022-05-06T16:32:17Z" finished-at="2022-05-06T16:32:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@27af16]]>
+                <![CDATA[org.testng.TestRunner@1874b25]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- one -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@13a3d88]" name="setUp" is-config="true" duration-ms="11216" started-at="2022-05-06T06:09:05Z" finished-at="2022-05-06T06:09:16Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@190c9c3]" name="setUp" is-config="true" duration-ms="13314" started-at="2022-05-06T16:32:17Z" finished-at="2022-05-06T16:32:30Z">
           <params>
             <param index="0">
               <value>
@@ -54,31 +54,31 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@27af16]]>
+                <![CDATA[org.testng.TestRunner@1874b25]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<br>current test- TC-1. Verify incorrect email validation message.]]>
+              <![CDATA[<br>current test- TC-1.. Verify incorrect email validation message.]]>
             </line>
             <line>
               <![CDATA[Current Xml Suite is:---->Signup Test Cases]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="InvalidEmail()[pri:0, instance:com.index.SignUpIndex@13a3d88]" name="InvalidEmail" duration-ms="9689" started-at="2022-05-06T06:09:16Z" finished-at="2022-05-06T06:09:26Z">
+        <test-method status="PASS" signature="InvalidEmail()[pri:0, instance:com.index.SignUpIndex@190c9c3]" name="InvalidEmail" duration-ms="9825" started-at="2022-05-06T16:32:30Z" finished-at="2022-05-06T16:32:40Z">
           <reporter-output>
             <line>
               <![CDATA[<br>Step 1 : Verify incorrect email validation message.<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- InvalidEmail -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.SignUpIndex@13a3d88]" name="tearDown" is-config="true" duration-ms="4845" started-at="2022-05-06T06:09:26Z" finished-at="2022-05-06T06:09:31Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.SignUpIndex@190c9c3]" name="tearDown" is-config="true" duration-ms="4914" started-at="2022-05-06T16:32:40Z" finished-at="2022-05-06T16:32:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=InvalidEmail status=SUCCESS method=SignUpIndex.InvalidEmail()[pri:0, instance:com.index.SignUpIndex@13a3d88] output=<br>Step 1 : Verify incorrect email validation message.<br>]]]>
+                <![CDATA[[TestResult name=InvalidEmail status=SUCCESS method=SignUpIndex.InvalidEmail()[pri:0, instance:com.index.SignUpIndex@190c9c3] output=<br>Step 1 : Verify incorrect email validation message.<br>]]]>
               </value>
             </param>
           </params>
@@ -86,21 +86,21 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.index.SignUpIndex -->
-    </test> <!-- TC-1. Verify incorrect email validation message. -->
-    <test name="TC-2. Verify email exist validation message." duration-ms="27333" started-at="2022-05-06T06:09:31Z" finished-at="2022-05-06T06:09:58Z">
+    </test> <!-- TC-1.. Verify incorrect email validation message. -->
+    <test name="TC-2. Verify email exist validation message." duration-ms="23996" started-at="2022-05-06T11:02:45Z" finished-at="2022-05-06T11:03:09Z">
       <class name="com.index.SignUpIndex">
-        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@150c158]" name="one" is-config="true" duration-ms="1" started-at="2022-05-06T06:09:31Z" finished-at="2022-05-06T06:09:31Z">
+        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@178f375]" name="one" is-config="true" duration-ms="1" started-at="2022-05-06T16:32:45Z" finished-at="2022-05-06T16:32:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@104476e]]>
+                <![CDATA[org.testng.TestRunner@1617539]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- one -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@150c158]" name="setUp" is-config="true" duration-ms="10770" started-at="2022-05-06T06:09:31Z" finished-at="2022-05-06T06:09:42Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@178f375]" name="setUp" is-config="true" duration-ms="11319" started-at="2022-05-06T16:32:45Z" finished-at="2022-05-06T16:32:56Z">
           <params>
             <param index="0">
               <value>
@@ -109,7 +109,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@104476e]]>
+                <![CDATA[org.testng.TestRunner@1617539]]>
               </value>
             </param>
           </params>
@@ -122,18 +122,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="EmailExist()[pri:0, instance:com.index.SignUpIndex@150c158]" name="EmailExist" duration-ms="11699" started-at="2022-05-06T06:09:42Z" finished-at="2022-05-06T06:09:53Z">
+        <test-method status="PASS" signature="EmailExist()[pri:0, instance:com.index.SignUpIndex@178f375]" name="EmailExist" duration-ms="11741" started-at="2022-05-06T16:32:56Z" finished-at="2022-05-06T16:33:08Z">
           <reporter-output>
             <line>
               <![CDATA[<br>Step 1 : Verify exist email validation message.<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- EmailExist -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.SignUpIndex@150c158]" name="tearDown" is-config="true" duration-ms="4857" started-at="2022-05-06T06:09:53Z" finished-at="2022-05-06T06:09:58Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.SignUpIndex@178f375]" name="tearDown" is-config="true" duration-ms="933" started-at="2022-05-06T16:33:08Z" finished-at="2022-05-06T16:33:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=EmailExist status=SUCCESS method=SignUpIndex.EmailExist()[pri:0, instance:com.index.SignUpIndex@150c158] output=<br>Step 1 : Verify exist email validation message.<br>]]]>
+                <![CDATA[[TestResult name=EmailExist status=SUCCESS method=SignUpIndex.EmailExist()[pri:0, instance:com.index.SignUpIndex@178f375] output=<br>Step 1 : Verify exist email validation message.<br>]]]>
               </value>
             </param>
           </params>
@@ -142,31 +142,31 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.index.SignUpIndex -->
     </test> <!-- TC-2. Verify email exist validation message. -->
-    <test name="TC-3. Verify &#039;Account created sucessfully validation message&#039;." duration-ms="68700" started-at="2022-05-06T06:09:58Z" finished-at="2022-05-06T06:11:07Z">
+    <test name="TC-3. Verify &#039;Account created sucessfully validation message&#039;." duration-ms="70240" started-at="2022-05-06T11:03:09Z" finished-at="2022-05-06T11:04:19Z">
       <class name="com.index.SignUpIndex">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@b21112]" name="fetchSuiteConfiguration" is-config="true" duration-ms="212" started-at="2022-05-06T06:09:05Z" finished-at="2022-05-06T06:09:05Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@39f31e]" name="fetchSuiteConfiguration" is-config="true" duration-ms="349" started-at="2022-05-06T16:32:17Z" finished-at="2022-05-06T16:32:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2fad19]]>
+                <![CDATA[org.testng.TestRunner@10b1b2e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@b21112]" name="one" is-config="true" duration-ms="1" started-at="2022-05-06T06:09:58Z" finished-at="2022-05-06T06:09:58Z">
+        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@39f31e]" name="one" is-config="true" duration-ms="0" started-at="2022-05-06T16:33:09Z" finished-at="2022-05-06T16:33:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2fad19]]>
+                <![CDATA[org.testng.TestRunner@10b1b2e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- one -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@b21112]" name="setUp" is-config="true" duration-ms="10220" started-at="2022-05-06T06:09:58Z" finished-at="2022-05-06T06:10:08Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@39f31e]" name="setUp" is-config="true" duration-ms="11350" started-at="2022-05-06T16:33:09Z" finished-at="2022-05-06T16:33:20Z">
           <params>
             <param index="0">
               <value>
@@ -175,7 +175,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@2fad19]]>
+                <![CDATA[org.testng.TestRunner@10b1b2e]]>
               </value>
             </param>
           </params>
@@ -188,25 +188,25 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SucessfullySignUp()[pri:0, instance:com.index.SignUpIndex@b21112]" name="SucessfullySignUp" duration-ms="57311" started-at="2022-05-06T06:10:08Z" finished-at="2022-05-06T06:11:06Z">
+        <test-method status="PASS" signature="SucessfullySignUp()[pri:0, instance:com.index.SignUpIndex@39f31e]" name="SucessfullySignUp" duration-ms="57910" started-at="2022-05-06T16:33:20Z" finished-at="2022-05-06T16:34:18Z">
           <reporter-output>
             <line>
               <![CDATA[<br>Step 1 : Verify 'Accout created sucessfully'validation message.<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- SucessfullySignUp -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.SignUpIndex@b21112]" name="tearDown" is-config="true" duration-ms="1164" started-at="2022-05-06T06:11:06Z" finished-at="2022-05-06T06:11:07Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.SignUpIndex@39f31e]" name="tearDown" is-config="true" duration-ms="977" started-at="2022-05-06T16:34:18Z" finished-at="2022-05-06T16:34:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SucessfullySignUp status=SUCCESS method=SignUpIndex.SucessfullySignUp()[pri:0, instance:com.index.SignUpIndex@b21112] output=<br>Step 1 : Verify 'Accout created sucessfully'validation message.<br>]]]>
+                <![CDATA[[TestResult name=SucessfullySignUp status=SUCCESS method=SignUpIndex.SucessfullySignUp()[pri:0, instance:com.index.SignUpIndex@39f31e] output=<br>Step 1 : Verify 'Accout created sucessfully'validation message.<br>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="testResults()[pri:0, instance:com.index.SignUpIndex@b21112]" name="testResults" is-config="true" duration-ms="298" started-at="2022-05-06T06:11:07Z" finished-at="2022-05-06T06:11:07Z">
+        <test-method status="PASS" signature="testResults()[pri:0, instance:com.index.SignUpIndex@39f31e]" name="testResults" is-config="true" duration-ms="427" started-at="2022-05-06T16:34:19Z" finished-at="2022-05-06T16:34:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResults -->

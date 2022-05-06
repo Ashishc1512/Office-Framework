@@ -2,10 +2,9 @@
 
 <html>
   <head>
-  <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
     <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -165,7 +164,7 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;4&quot; verbose=&quot;10&quot; name=&quot;Signup Test Cases&quot; allow-return-values=&quot;true&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; verbose=&quot;0&quot; name=&quot;Signup Test Cases&quot; parallel=&quot;none&quot; allow-return-values=&quot;true&quot;&gt;
   &lt;parameter name=&quot;selenium.port&quot; value=&quot;4444&quot;/&gt;
   &lt;parameter name=&quot;selenium.host&quot; value=&quot;localhost&quot;/&gt;
   &lt;parameter name=&quot;selenium.browser&quot; value=&quot;chrome&quot;/&gt;
@@ -175,7 +174,7 @@
     &lt;listener class-name=&quot;com.utility.CustomReporterforEmail&quot;/&gt;
     &lt;listener class-name=&quot;com.utility.CustomReporterBuildSummary&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;4&quot; verbose=&quot;10&quot; name=&quot;TC-1. Verify incorrect email validation message.&quot;&gt;
+  &lt;test name=&quot;TC-1.. Verify incorrect email validation message.&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.index.SignUpIndex&quot;&gt;
         &lt;methods&gt;
@@ -183,8 +182,8 @@
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- com.index.SignUpIndex --&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- TC-1. Verify incorrect email validation message. --&gt;
-  &lt;test thread-count=&quot;4&quot; verbose=&quot;10&quot; name=&quot;TC-2. Verify email exist validation message.&quot;&gt;
+  &lt;/test&gt; &lt;!-- TC-1.. Verify incorrect email validation message. --&gt;
+  &lt;test name=&quot;TC-2. Verify email exist validation message.&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.index.SignUpIndex&quot;&gt;
         &lt;methods&gt;
@@ -193,7 +192,7 @@
       &lt;/class&gt; &lt;!-- com.index.SignUpIndex --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- TC-2. Verify email exist validation message. --&gt;
-  &lt;test thread-count=&quot;4&quot; verbose=&quot;10&quot; name=&quot;TC-3. Verify &amp;#039;Account created sucessfully validation message&amp;#039;.&quot;&gt;
+  &lt;test name=&quot;TC-3. Verify &amp;#039;Account created sucessfully validation message&amp;#039;.&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.index.SignUpIndex&quot;&gt;
         &lt;methods&gt;
@@ -213,7 +212,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">TC-1. Verify incorrect email validation message. (1 class)</span>
+                <span class="test-name">TC-1.. Verify incorrect email validation message. (1 class)</span>
               </li>
               <li>
                 <span class="test-name">TC-2. Verify email exist validation message. (1 class)</span>
@@ -249,15 +248,15 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'SucessfullySignUp')
 data.setCell(0, 2, 'com.index.SignUpIndex')
-data.setCell(0, 3, 57311);
+data.setCell(0, 3, 57910);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'EmailExist')
 data.setCell(1, 2, 'com.index.SignUpIndex')
-data.setCell(1, 3, 11699);
+data.setCell(1, 3, 11741);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'InvalidEmail')
 data.setCell(2, 2, 'com.index.SignUpIndex')
-data.setCell(2, 3, 9689);
+data.setCell(2, 3, 9825);
 window.suiteTableData['Signup_Test_Cases']= { tableData: data, tableDiv: 'times-div-Signup_Test_Cases'}
 return data;
 }
@@ -325,60 +324,60 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.index.SignUpIndex</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@2fad19)</span>
+                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@10b1b2e)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
-                <span class="method-name">one(org.testng.TestRunner@27af16)</span>
-                <span class="method-start">214 ms</span>
+                <span class="method-name">one(org.testng.TestRunner@1874b25)</span>
+                <span class="method-start">350 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(public void com.index.SignUpIndex.InvalidEmail() throws java.lang.Exception, org.testng.TestRunner@2...)</span>
-                <span class="method-start">227 ms</span>
+                <span class="method-name">setUp(public void com.index.SignUpIndex.InvalidEmail() throws java.lang.Exception, org.testng.TestRunner@1...)</span>
+                <span class="method-start">399 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">InvalidEmail</span>
-                <span class="method-start">11443 ms</span>
+                <span class="method-start">13713 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=InvalidEmail status=SUCCESS method=SignUpIndex.InvalidEmail()[pri:0, instance:com.i...)</span>
-                <span class="method-start">21135 ms</span>
+                <span class="method-start">23538 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test before">
-                <span class="method-name">one(org.testng.TestRunner@104476e)</span>
-                <span class="method-start">26017 ms</span>
+                <span class="method-name">one(org.testng.TestRunner@1617539)</span>
+                <span class="method-start">28502 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.index.SignUpIndex.EmailExist() throws java.lang.InterruptedException, org.testng.Tes...)</span>
-                <span class="method-start">26018 ms</span>
+                <span class="method-start">28504 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">EmailExist</span>
-                <span class="method-start">36788 ms</span>
+                <span class="method-start">39823 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=EmailExist status=SUCCESS method=SignUpIndex.EmailExist()[pri:0, instance:com.index...)</span>
-                <span class="method-start">48492 ms</span>
+                <span class="method-start">51565 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test before">
-                <span class="method-name">one(org.testng.TestRunner@2fad19)</span>
-                <span class="method-start">53368 ms</span>
+                <span class="method-name">one(org.testng.TestRunner@10b1b2e)</span>
+                <span class="method-start">52511 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.index.SignUpIndex.SucessfullySignUp() throws java.lang.InterruptedException, org.tes...)</span>
-                <span class="method-start">53370 ms</span>
+                <span class="method-start">52512 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">SucessfullySignUp</span>
-                <span class="method-start">63590 ms</span>
+                <span class="method-start">63862 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=SucessfullySignUp status=SUCCESS method=SignUpIndex.SucessfullySignUp()[pri:0, inst...)</span>
-                <span class="method-start">120902 ms</span>
+                <span class="method-start">121773 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">testResults</span>
-                <span class="method-start">122074 ms</span>
+                <span class="method-start">122764 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
