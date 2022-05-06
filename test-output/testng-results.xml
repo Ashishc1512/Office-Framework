@@ -35,12 +35,12 @@
       <![CDATA[<br><Strong><font color=#ff0000>org.openqa.selenium.NoSuchElementException: Timed out after 80 seconds. Unable to locate the element</font></strong>]]>
     </line>
   </reporter-output>
-  <suite name="Signup Test Cases" duration-ms="266100" started-at="2022-05-06T12:00:13Z" finished-at="2022-05-06T12:04:39Z">
+  <suite name="Signup Test Cases" duration-ms="208062" started-at="2022-05-06T12:11:09Z" finished-at="2022-05-06T12:14:37Z">
     <groups>
     </groups>
-    <test name="TC-1.. Verify incorrect email validation message." duration-ms="27958" started-at="2022-05-06T12:00:13Z" finished-at="2022-05-06T12:00:41Z">
+    <test name="TC-1.. Verify incorrect email validation message." duration-ms="44113" started-at="2022-05-06T12:11:09Z" finished-at="2022-05-06T12:11:53Z">
       <class name="com.index.SignUpIndex">
-        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@146e1f4]" name="one" is-config="true" duration-ms="0" started-at="2022-05-06T17:30:13Z" finished-at="2022-05-06T17:30:13Z">
+        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@146e1f4]" name="one" is-config="true" duration-ms="0" started-at="2022-05-06T17:41:09Z" finished-at="2022-05-06T17:41:09Z">
           <params>
             <param index="0">
               <value>
@@ -51,7 +51,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- one -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@146e1f4]" name="setUp" is-config="true" duration-ms="13850" started-at="2022-05-06T17:30:13Z" finished-at="2022-05-06T17:30:27Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@146e1f4]" name="setUp" is-config="true" duration-ms="30096" started-at="2022-05-06T17:41:09Z" finished-at="2022-05-06T17:41:39Z">
           <params>
             <param index="0">
               <value>
@@ -73,14 +73,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="InvalidEmail()[pri:0, instance:com.index.SignUpIndex@146e1f4]" name="InvalidEmail" duration-ms="9212" started-at="2022-05-06T17:30:27Z" finished-at="2022-05-06T17:30:36Z">
+        <test-method status="PASS" signature="InvalidEmail()[pri:0, instance:com.index.SignUpIndex@146e1f4]" name="InvalidEmail" duration-ms="9222" started-at="2022-05-06T17:41:39Z" finished-at="2022-05-06T17:41:49Z">
           <reporter-output>
             <line>
               <![CDATA[<br>Step 1 : Verify incorrect email validation message.<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- InvalidEmail -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.SignUpIndex@146e1f4]" name="tearDown" is-config="true" duration-ms="4844" started-at="2022-05-06T17:30:36Z" finished-at="2022-05-06T17:30:41Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.SignUpIndex@146e1f4]" name="tearDown" is-config="true" duration-ms="4772" started-at="2022-05-06T17:41:49Z" finished-at="2022-05-06T17:41:53Z">
           <params>
             <param index="0">
               <value>
@@ -93,9 +93,9 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.index.SignUpIndex -->
     </test> <!-- TC-1.. Verify incorrect email validation message. -->
-    <test name="TC-2. Verify email exist validation message." duration-ms="42526" started-at="2022-05-06T12:00:41Z" finished-at="2022-05-06T12:01:23Z">
+    <test name="TC-2. Verify email exist validation message." duration-ms="33486" started-at="2022-05-06T12:11:53Z" finished-at="2022-05-06T12:12:27Z">
       <class name="com.index.SignUpIndex">
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@e9a829]" name="setUp" is-config="true" duration-ms="26063" started-at="2022-05-06T17:30:41Z" finished-at="2022-05-06T17:31:07Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@e9a829]" name="setUp" is-config="true" duration-ms="16968" started-at="2022-05-06T17:41:53Z" finished-at="2022-05-06T17:42:10Z">
           <params>
             <param index="0">
               <value>
@@ -117,7 +117,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@e9a829]" name="one" is-config="true" duration-ms="0" started-at="2022-05-06T17:30:41Z" finished-at="2022-05-06T17:30:41Z">
+        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@e9a829]" name="one" is-config="true" duration-ms="0" started-at="2022-05-06T17:41:53Z" finished-at="2022-05-06T17:41:53Z">
           <params>
             <param index="0">
               <value>
@@ -128,14 +128,14 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- one -->
-        <test-method status="PASS" signature="EmailExist()[pri:0, instance:com.index.SignUpIndex@e9a829]" name="EmailExist" duration-ms="11634" started-at="2022-05-06T17:31:07Z" finished-at="2022-05-06T17:31:18Z">
+        <test-method status="PASS" signature="EmailExist()[pri:0, instance:com.index.SignUpIndex@e9a829]" name="EmailExist" duration-ms="11658" started-at="2022-05-06T17:42:10Z" finished-at="2022-05-06T17:42:22Z">
           <reporter-output>
             <line>
               <![CDATA[<br>Step 1 : Verify exist email validation message.<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- EmailExist -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.SignUpIndex@e9a829]" name="tearDown" is-config="true" duration-ms="4828" started-at="2022-05-06T17:31:18Z" finished-at="2022-05-06T17:31:23Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.SignUpIndex@e9a829]" name="tearDown" is-config="true" duration-ms="4859" started-at="2022-05-06T17:42:22Z" finished-at="2022-05-06T17:42:27Z">
           <params>
             <param index="0">
               <value>
@@ -148,9 +148,9 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.index.SignUpIndex -->
     </test> <!-- TC-2. Verify email exist validation message. -->
-    <test name="TC-3. Verify &#039;Account created sucessfully validation message&#039;." duration-ms="195565" started-at="2022-05-06T12:01:23Z" finished-at="2022-05-06T12:04:39Z">
+    <test name="TC-3. Verify &#039;Account created sucessfully validation message&#039;." duration-ms="130439" started-at="2022-05-06T12:12:27Z" finished-at="2022-05-06T12:14:37Z">
       <class name="com.index.SignUpIndex">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@1375618]" name="fetchSuiteConfiguration" is-config="true" duration-ms="354" started-at="2022-05-06T17:30:12Z" finished-at="2022-05-06T17:30:13Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@1375618]" name="fetchSuiteConfiguration" is-config="true" duration-ms="280" started-at="2022-05-06T17:41:09Z" finished-at="2022-05-06T17:41:09Z">
           <params>
             <param index="0">
               <value>
@@ -161,7 +161,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@1375618]" name="one" is-config="true" duration-ms="1" started-at="2022-05-06T17:31:23Z" finished-at="2022-05-06T17:31:23Z">
+        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@1375618]" name="one" is-config="true" duration-ms="0" started-at="2022-05-06T17:42:27Z" finished-at="2022-05-06T17:42:27Z">
           <params>
             <param index="0">
               <value>
@@ -172,7 +172,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- one -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@1375618]" name="setUp" is-config="true" duration-ms="79876" started-at="2022-05-06T17:31:23Z" finished-at="2022-05-06T17:32:43Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@1375618]" name="setUp" is-config="true" duration-ms="14797" started-at="2022-05-06T17:42:27Z" finished-at="2022-05-06T17:42:42Z">
           <params>
             <param index="0">
               <value>
@@ -194,7 +194,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="SucessfullySignUp()[pri:0, instance:com.index.SignUpIndex@1375618]" name="SucessfullySignUp" duration-ms="115665" started-at="2022-05-06T17:32:43Z" finished-at="2022-05-06T17:34:39Z">
+        <test-method status="FAIL" signature="SucessfullySignUp()[pri:0, instance:com.index.SignUpIndex@1375618]" name="SucessfullySignUp" duration-ms="115593" started-at="2022-05-06T17:42:42Z" finished-at="2022-05-06T17:44:37Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Timed out after 80 seconds. Unable to locate the element]]>
@@ -215,7 +215,7 @@
 	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:477)
 	at com.init.Common.highlightElement(Common.java:273)
 	at com.init.Common.clickOn(Common.java:256)
-	at com.indexPage.SignUpIndexPage.ClickGBPcurrency(SignUpIndexPage.java:60)
+	at com.indexPage.SignUpIndexPage.ClickGBPcurrency(SignUpIndexPage.java:61)
 	at com.index.SignUpIndex.SucessfullySignUp(SignUpIndex.java:66)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -250,8 +250,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
 System info: host: 'DESKTOP-GKA213I', ip: '192.168.1.131', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_121'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:60243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 54f846fa684a0a1a8e8bc74e3292dba4
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:59233}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 52717462fb427ea52e53c3d1fbec15bb
 *** Element info: {Using=xpath, value=//*[@src="/static/media/uk.4dcc5075.jpg"]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -288,7 +288,7 @@ Session ID: 54f846fa684a0a1a8e8bc74e3292dba4
             </line>
           </reporter-output>
         </test-method> <!-- SucessfullySignUp -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.SignUpIndex@1375618]" name="tearDown" is-config="true" duration-ms="10" started-at="2022-05-06T17:34:39Z" finished-at="2022-05-06T17:34:39Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.SignUpIndex@1375618]" name="tearDown" is-config="true" duration-ms="18" started-at="2022-05-06T17:44:37Z" finished-at="2022-05-06T17:44:37Z">
           <params>
             <param index="0">
               <value>
@@ -299,7 +299,7 @@ Session ID: 54f846fa684a0a1a8e8bc74e3292dba4
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="testResults()[pri:0, instance:com.index.SignUpIndex@1375618]" name="testResults" is-config="true" duration-ms="271" started-at="2022-05-06T17:34:39Z" finished-at="2022-05-06T17:34:39Z">
+        <test-method status="PASS" signature="testResults()[pri:0, instance:com.index.SignUpIndex@1375618]" name="testResults" is-config="true" duration-ms="270" started-at="2022-05-06T17:44:37Z" finished-at="2022-05-06T17:44:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResults -->
