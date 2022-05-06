@@ -80,7 +80,6 @@ public class SeleniumInit {
 	public static String constant_grfpTemplateName = "";
 	public static HashMap<String,String> globalMap=new HashMap<String,String>();
 	public static ArrayList<String> arrayList=new ArrayList<String>();
-
 	
 	public String currentTest; // current running test
 
@@ -117,7 +116,6 @@ public class SeleniumInit {
 	 * @param testContext
 	 */
 
-	
 	@BeforeSuite(alwaysRun = true)
 	 protected void fetchSuiteConfiguration(ITestContext testContext) {
 		
@@ -148,11 +146,9 @@ public class SeleniumInit {
 		return report.startTest(testName);
 	}
 
-
 	@AfterSuite
 	public void testResults()
 	{
-		
 		
 		//System.out.println("The passed tests - " + passed_count);
 		//System.out.println("The failed tests - " + failed_count);
