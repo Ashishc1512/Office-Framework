@@ -47,7 +47,7 @@ public class SignUpIndex extends SeleniumInit {
 		Thread.sleep(2000);
 	}
 	
-	@Test
+	/*@Test
 	public void SucessfullySignUp() throws InterruptedException	{
 		
 		test.log(LogStatus.PASS, "Step " + (extentStepCount++) + " : Click on Register now button");
@@ -114,5 +114,5 @@ public class SignUpIndex extends SeleniumInit {
 		Thread.sleep(2000);
 		
 	}
-	
+	*/
 }
