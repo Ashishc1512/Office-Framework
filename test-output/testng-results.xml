@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="3" failed="0" total="3" passed="0">
   <reporter-output>
     <line>
       <![CDATA[<br>current test- TC-1.. Verify incorrect email validation message.]]>
@@ -8,7 +8,7 @@
       <![CDATA[Current Xml Suite is:---->Signup Test Cases]]>
     </line>
     <line>
-      <![CDATA[<br>Step 1 : Verify incorrect email validation message.<br>]]>
+      <![CDATA[<br></br><Strong><font color=#ff0000>Fail                  </font></strong><img src='C:\Users\BAPS\git\FrameworkDemo\report-imgs\fail.png' alt='fail' height='15' width='15'/>]]>
     </line>
     <line>
       <![CDATA[<br>current test- TC-2. Verify email exist validation message.]]>
@@ -17,7 +17,7 @@
       <![CDATA[Current Xml Suite is:---->Signup Test Cases]]>
     </line>
     <line>
-      <![CDATA[<br>Step 1 : Verify exist email validation message.<br>]]>
+      <![CDATA[<br></br><Strong><font color=#ff0000>Fail                  </font></strong><img src='C:\Users\BAPS\git\FrameworkDemo\report-imgs\fail.png' alt='fail' height='15' width='15'/>]]>
     </line>
     <line>
       <![CDATA[<br>current test- TC-3. Verify 'Account created sucessfully validation message'.]]>
@@ -26,26 +26,26 @@
       <![CDATA[Current Xml Suite is:---->Signup Test Cases]]>
     </line>
     <line>
-      <![CDATA[<br>Step 1 : Verify 'Accout created sucessfully'validation message.<br>]]>
+      <![CDATA[<br></br><Strong><font color=#ff0000>Fail                  </font></strong><img src='C:\Users\BAPS\git\FrameworkDemo\report-imgs\fail.png' alt='fail' height='15' width='15'/>]]>
     </line>
   </reporter-output>
-  <suite name="Signup Test Cases" duration-ms="142423" started-at="2022-05-06T12:31:06Z" finished-at="2022-05-06T12:33:28Z">
+  <suite name="Signup Test Cases" duration-ms="20919" started-at="2022-05-07T05:06:06Z" finished-at="2022-05-07T05:06:27Z">
     <groups>
     </groups>
-    <test name="TC-1.. Verify incorrect email validation message." duration-ms="30234" started-at="2022-05-06T12:31:06Z" finished-at="2022-05-06T12:31:36Z">
+    <test name="TC-1.. Verify incorrect email validation message." duration-ms="14122" started-at="2022-05-07T05:06:06Z" finished-at="2022-05-07T05:06:20Z">
       <class name="com.index.SignUpIndex">
-        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@146e1f4]" name="one" is-config="true" duration-ms="0" started-at="2022-05-06T18:01:06Z" finished-at="2022-05-06T18:01:06Z">
+        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@190c9c3]" name="one" is-config="true" duration-ms="1" started-at="2022-05-07T10:36:06Z" finished-at="2022-05-07T10:36:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@118388b]]>
+                <![CDATA[org.testng.TestRunner@b6ffe0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- one -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@146e1f4]" name="setUp" is-config="true" duration-ms="16087" started-at="2022-05-06T18:01:06Z" finished-at="2022-05-06T18:01:22Z">
+        <test-method status="FAIL" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@190c9c3]" name="setUp" is-config="true" duration-ms="0" started-at="2022-05-07T10:36:06Z" finished-at="2022-05-07T10:36:06Z">
           <params>
             <param index="0">
               <value>
@@ -54,10 +54,75 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@118388b]]>
+                <![CDATA[org.testng.TestRunner@b6ffe0]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-GKA213I', ip: '192.168.43.152', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\BAPS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57131}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 803849a29deda823a0faf443c3e85741]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-GKA213I', ip: '192.168.43.152', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\BAPS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57131}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 803849a29deda823a0faf443c3e85741
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:836)
+	at com.init.SeleniumInit.setUp(SeleniumInit.java:327)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
             <line>
               <![CDATA[<br>current test- TC-1.. Verify incorrect email validation message.]]>
@@ -67,18 +132,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="InvalidEmail()[pri:0, instance:com.index.SignUpIndex@146e1f4]" name="InvalidEmail" duration-ms="9317" started-at="2022-05-06T18:01:22Z" finished-at="2022-05-06T18:01:31Z">
+        <test-method status="SKIP" signature="InvalidEmail()[pri:0, instance:com.index.SignUpIndex@190c9c3]" name="InvalidEmail" duration-ms="1" started-at="2022-05-07T10:36:20Z" finished-at="2022-05-07T10:36:20Z">
           <reporter-output>
             <line>
-              <![CDATA[<br>Step 1 : Verify incorrect email validation message.<br>]]>
+              <![CDATA[<br></br><Strong><font color=#ff0000>Fail                  </font></strong><img src='C:\Users\BAPS\git\FrameworkDemo\report-imgs\fail.png' alt='fail' height='15' width='15'/>]]>
             </line>
           </reporter-output>
         </test-method> <!-- InvalidEmail -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.SignUpIndex@146e1f4]" name="tearDown" is-config="true" duration-ms="4807" started-at="2022-05-06T18:01:31Z" finished-at="2022-05-06T18:01:36Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.SignUpIndex@190c9c3]" name="tearDown" is-config="true" duration-ms="4" started-at="2022-05-07T10:36:20Z" finished-at="2022-05-07T10:36:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=InvalidEmail status=SUCCESS method=SignUpIndex.InvalidEmail()[pri:0, instance:com.index.SignUpIndex@146e1f4] output=<br>Step 1 : Verify incorrect email validation message.<br>]]]>
+                <![CDATA[[TestResult name=InvalidEmail status=SKIP method=SignUpIndex.InvalidEmail()[pri:0, instance:com.index.SignUpIndex@190c9c3] output=<br></br><Strong><font color=#ff0000>Fail                  </font></strong><img src='C:\Users\BAPS\git\FrameworkDemo\report-imgs\fail.png' alt='fail' height='15' width='15'/>]]]>
               </value>
             </param>
           </params>
@@ -87,20 +152,9 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.index.SignUpIndex -->
     </test> <!-- TC-1.. Verify incorrect email validation message. -->
-    <test name="TC-2. Verify email exist validation message." duration-ms="38481" started-at="2022-05-06T12:31:36Z" finished-at="2022-05-06T12:32:15Z">
+    <test name="TC-2. Verify email exist validation message." duration-ms="3527" started-at="2022-05-07T05:06:20Z" finished-at="2022-05-07T05:06:24Z">
       <class name="com.index.SignUpIndex">
-        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@e9a829]" name="one" is-config="true" duration-ms="0" started-at="2022-05-06T18:01:36Z" finished-at="2022-05-06T18:01:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@3e3e8b]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- one -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@e9a829]" name="setUp" is-config="true" duration-ms="21954" started-at="2022-05-06T18:01:36Z" finished-at="2022-05-06T18:01:58Z">
+        <test-method status="FAIL" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@178f375]" name="setUp" is-config="true" duration-ms="0" started-at="2022-05-07T10:36:20Z" finished-at="2022-05-07T10:36:20Z">
           <params>
             <param index="0">
               <value>
@@ -109,10 +163,75 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@3e3e8b]]>
+                <![CDATA[org.testng.TestRunner@16025c5]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-GKA213I', ip: '192.168.43.152', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\BAPS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 00eb576999d0b6810c71bcfcc09f66c1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-GKA213I', ip: '192.168.43.152', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\BAPS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 00eb576999d0b6810c71bcfcc09f66c1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:836)
+	at com.init.SeleniumInit.setUp(SeleniumInit.java:327)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
             <line>
               <![CDATA[<br>current test- TC-2. Verify email exist validation message.]]>
@@ -122,18 +241,29 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="EmailExist()[pri:0, instance:com.index.SignUpIndex@e9a829]" name="EmailExist" duration-ms="11666" started-at="2022-05-06T18:01:58Z" finished-at="2022-05-06T18:02:10Z">
-          <reporter-output>
-            <line>
-              <![CDATA[<br>Step 1 : Verify exist email validation message.<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- EmailExist -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.SignUpIndex@e9a829]" name="tearDown" is-config="true" duration-ms="4859" started-at="2022-05-06T18:02:10Z" finished-at="2022-05-06T18:02:15Z">
+        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@178f375]" name="one" is-config="true" duration-ms="0" started-at="2022-05-07T10:36:20Z" finished-at="2022-05-07T10:36:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=EmailExist status=SUCCESS method=SignUpIndex.EmailExist()[pri:0, instance:com.index.SignUpIndex@e9a829] output=<br>Step 1 : Verify exist email validation message.<br>]]]>
+                <![CDATA[org.testng.TestRunner@16025c5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- one -->
+        <test-method status="SKIP" signature="EmailExist()[pri:0, instance:com.index.SignUpIndex@178f375]" name="EmailExist" duration-ms="0" started-at="2022-05-07T10:36:24Z" finished-at="2022-05-07T10:36:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#ff0000>Fail                  </font></strong><img src='C:\Users\BAPS\git\FrameworkDemo\report-imgs\fail.png' alt='fail' height='15' width='15'/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EmailExist -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.SignUpIndex@178f375]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-05-07T10:36:24Z" finished-at="2022-05-07T10:36:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EmailExist status=SKIP method=SignUpIndex.EmailExist()[pri:0, instance:com.index.SignUpIndex@178f375] output=<br></br><Strong><font color=#ff0000>Fail                  </font></strong><img src='C:\Users\BAPS\git\FrameworkDemo\report-imgs\fail.png' alt='fail' height='15' width='15'/>]]]>
               </value>
             </param>
           </params>
@@ -142,31 +272,31 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.index.SignUpIndex -->
     </test> <!-- TC-2. Verify email exist validation message. -->
-    <test name="TC-3. Verify &#039;Account created sucessfully validation message&#039;." duration-ms="73633" started-at="2022-05-06T12:32:15Z" finished-at="2022-05-06T12:33:28Z">
+    <test name="TC-3. Verify &#039;Account created sucessfully validation message&#039;." duration-ms="3220" started-at="2022-05-07T05:06:24Z" finished-at="2022-05-07T05:06:27Z">
       <class name="com.index.SignUpIndex">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@1375618]" name="fetchSuiteConfiguration" is-config="true" duration-ms="276" started-at="2022-05-06T18:01:06Z" finished-at="2022-05-06T18:01:06Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@39f31e]" name="fetchSuiteConfiguration" is-config="true" duration-ms="403" started-at="2022-05-07T10:36:06Z" finished-at="2022-05-07T10:36:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@f28b27]]>
+                <![CDATA[org.testng.TestRunner@11aed93]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@1375618]" name="one" is-config="true" duration-ms="1" started-at="2022-05-06T18:02:15Z" finished-at="2022-05-06T18:02:15Z">
+        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@39f31e]" name="one" is-config="true" duration-ms="0" started-at="2022-05-07T10:36:24Z" finished-at="2022-05-07T10:36:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@f28b27]]>
+                <![CDATA[org.testng.TestRunner@11aed93]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- one -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@1375618]" name="setUp" is-config="true" duration-ms="15528" started-at="2022-05-06T18:02:15Z" finished-at="2022-05-06T18:02:30Z">
+        <test-method status="FAIL" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@39f31e]" name="setUp" is-config="true" duration-ms="0" started-at="2022-05-07T10:36:24Z" finished-at="2022-05-07T10:36:24Z">
           <params>
             <param index="0">
               <value>
@@ -175,10 +305,74 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@f28b27]]>
+                <![CDATA[org.testng.TestRunner@11aed93]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-GKA213I', ip: '192.168.43.152', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\BAPS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61509}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a2007abf61363a0ae21c2a76a8dde6a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-GKA213I', ip: '192.168.43.152', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\BAPS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61509}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a2007abf61363a0ae21c2a76a8dde6a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
+	at com.init.SeleniumInit.setUp(SeleniumInit.java:325)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
             <line>
               <![CDATA[<br>current test- TC-3. Verify 'Account created sucessfully validation message'.]]>
@@ -188,25 +382,25 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SucessfullySignUp()[pri:0, instance:com.index.SignUpIndex@1375618]" name="SucessfullySignUp" duration-ms="57328" started-at="2022-05-06T18:02:30Z" finished-at="2022-05-06T18:03:28Z">
+        <test-method status="SKIP" signature="SucessfullySignUp()[pri:0, instance:com.index.SignUpIndex@39f31e]" name="SucessfullySignUp" duration-ms="0" started-at="2022-05-07T10:36:27Z" finished-at="2022-05-07T10:36:27Z">
           <reporter-output>
             <line>
-              <![CDATA[<br>Step 1 : Verify 'Accout created sucessfully'validation message.<br>]]>
+              <![CDATA[<br></br><Strong><font color=#ff0000>Fail                  </font></strong><img src='C:\Users\BAPS\git\FrameworkDemo\report-imgs\fail.png' alt='fail' height='15' width='15'/>]]>
             </line>
           </reporter-output>
         </test-method> <!-- SucessfullySignUp -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.SignUpIndex@1375618]" name="tearDown" is-config="true" duration-ms="773" started-at="2022-05-06T18:03:28Z" finished-at="2022-05-06T18:03:28Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.SignUpIndex@39f31e]" name="tearDown" is-config="true" duration-ms="4" started-at="2022-05-07T10:36:27Z" finished-at="2022-05-07T10:36:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SucessfullySignUp status=SUCCESS method=SignUpIndex.SucessfullySignUp()[pri:0, instance:com.index.SignUpIndex@1375618] output=<br>Step 1 : Verify 'Accout created sucessfully'validation message.<br>]]]>
+                <![CDATA[[TestResult name=SucessfullySignUp status=SKIP method=SignUpIndex.SucessfullySignUp()[pri:0, instance:com.index.SignUpIndex@39f31e] output=<br></br><Strong><font color=#ff0000>Fail                  </font></strong><img src='C:\Users\BAPS\git\FrameworkDemo\report-imgs\fail.png' alt='fail' height='15' width='15'/>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="testResults()[pri:0, instance:com.index.SignUpIndex@1375618]" name="testResults" is-config="true" duration-ms="279" started-at="2022-05-06T18:03:28Z" finished-at="2022-05-06T18:03:29Z">
+        <test-method status="SKIP" signature="testResults()[pri:0, instance:com.index.SignUpIndex@39f31e]" name="testResults" is-config="true" duration-ms="0" started-at="2022-05-07T10:36:27Z" finished-at="2022-05-07T10:36:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResults -->
