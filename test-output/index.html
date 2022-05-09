@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Signup_Test_Cases">
-              <span class="suite-name border-passed">Signup Test Cases</span>
+              <span class="suite-name border-failed">Signup Test Cases</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -53,7 +53,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Signup_Test_Cases">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Signup_Test_Cases" class="hide-methods failed suite-Signup_Test_Cases"> (hide)</a> <!-- hide-methods failed suite-Signup_Test_Cases -->
+                      <a href="#" panel-name="suite-Signup_Test_Cases" class="show-methods failed suite-Signup_Test_Cases"> (show)</a> <!-- show-methods failed suite-Signup_Test_Cases -->
+                    </span>
+                    <div class="method-list-content failed suite-Signup_Test_Cases">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Signup_Test_Cases" title="com.index.SignUpIndex" hash-for-method="SucessfullySignUp">SucessfullySignUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Signup_Test_Cases -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -121,6 +135,65 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Signup_Test_Cases" class="panel Signup_Test_Cases">
+          <div class="suite-Signup_Test_Cases-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.index.SignUpIndex</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SucessfullySignUp">
+                  </a> <!-- SucessfullySignUp -->
+                  <span class="method-name">SucessfullySignUp</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Timed out after 80 seconds. Unable to locate the element
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:90)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:477)
+	at com.init.Common.highlightElement(Common.java:273)
+	at com.init.Common.clickOn(Common.java:256)
+	at com.indexPage.SignUpIndexPage.ClickGBPcurrency(SignUpIndexPage.java:69)
+	at com.index.SignUpIndex.SucessfullySignUp(SignUpIndex.java:66)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@src=&quot;/static/media/uk.4dcc5075.jpg&quot;]&quot;}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DESKTOP-GKA213I&apos;, ip: &apos;192.168.1.143&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:50228}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 79fbe186df9460b13d6c2e444c774c72
+*** Element info: {Using=xpath, value=//*[@src=&quot;/static/media/uk.4dcc5075.jpg&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:40)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:156)
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:69)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:86)
+	... 42 more
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Signup_Test_Cases-class-failed -->
           <div class="suite-Signup_Test_Cases-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -180,6 +253,15 @@
       &lt;/class&gt; &lt;!-- com.index.SignUpIndex --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- TC-2. Verify email exist validation message. --&gt;
+  &lt;test name=&quot;TC-3. Verify &amp;#039;Account created sucessfully validation message&amp;#039;.&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.index.SignUpIndex&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;SucessfullySignUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.index.SignUpIndex --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC-3. Verify &apos;Account created sucessfully validation message&apos;. --&gt;
 &lt;/suite&gt; &lt;!-- Signup Test Cases --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -195,6 +277,9 @@
               </li>
               <li>
                 <span class="test-name">TC-2. Verify email exist validation message. (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC-3. Verify 'Account created sucessfully validation message'. (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -220,20 +305,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'EmailExist')
+data.setCell(0, 1, 'SucessfullySignUp')
 data.setCell(0, 2, 'com.index.SignUpIndex')
-data.setCell(0, 3, 11830);
+data.setCell(0, 3, 115356);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'InvalidEmail')
+data.setCell(1, 1, 'EmailExist')
 data.setCell(1, 2, 'com.index.SignUpIndex')
-data.setCell(1, 3, 9780);
+data.setCell(1, 3, 11759);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'InvalidEmail')
+data.setCell(2, 2, 'com.index.SignUpIndex')
+data.setCell(2, 3, 9329);
 window.suiteTableData['Signup_Test_Cases']= { tableData: data, tableDiv: 'times-div-Signup_Test_Cases'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Signup_Test_Cases">
               </div> <!-- times-div-Signup_Test_Cases -->
             </div> <!-- times-div -->
@@ -256,11 +345,19 @@ return data;
                 <span class="reporter-method-output"><br>Step 1 : Verify exist email validation message.<br></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SucessfullySignUp</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br></br><Strong><font color=#ff0000>Fail                  </font></strong><img src='C:\Users\BAPS\git\FrameworkDemo\report-imgs\fail.png' alt='fail' height='15' width='15'/></span>
+                <span class="reporter-method-output"><br><b><i>Failure Reason:</b></i></span>
+                <span class="reporter-method-output"><br><Strong><font color=#ff0000>org.openqa.selenium.NoSuchElementException: Timed out after 80 seconds. Unable to locate the element</font></strong></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Signup_Test_Cases" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">6 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
@@ -268,7 +365,15 @@ return data;
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">InvalidEmail</span>
                 <br/>
+                <span class="ignored-method-name">InvalidEmail</span>
+                <br/>
                 <span class="ignored-method-name">EmailExist</span>
+                <br/>
+                <span class="ignored-method-name">EmailExist</span>
+                <br/>
+                <span class="ignored-method-name">SucessfullySignUp</span>
+                <br/>
+                <span class="ignored-method-name">SucessfullySignUp</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -282,44 +387,62 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.index.SignUpIndex</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@1c79f09)</span>
+                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@e9319f)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
-                <span class="method-name">one(org.testng.TestRunner@1e18e38)</span>
-                <span class="method-start">365 ms</span>
+                <span class="method-name">one(org.testng.TestRunner@1ebc9d8)</span>
+                <span class="method-start">316 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.index.SignUpIndex.InvalidEmail() throws java.lang.Exception, org.testng.TestRunner@1...)</span>
-                <span class="method-start">389 ms</span>
+                <span class="method-start">335 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">InvalidEmail</span>
-                <span class="method-start">18076 ms</span>
+                <span class="method-start">10340 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=InvalidEmail status=SUCCESS method=SignUpIndex.InvalidEmail()[pri:0, instance:com.i...)</span>
-                <span class="method-start">27856 ms</span>
+                <span class="method-start">19669 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test before">
-                <span class="method-name">one(org.testng.TestRunner@1c79f09)</span>
-                <span class="method-start">32772 ms</span>
+                <span class="method-name">one(org.testng.TestRunner@1a590ba)</span>
+                <span class="method-start">24468 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.index.SignUpIndex.EmailExist() throws java.lang.InterruptedException, org.testng.Tes...)</span>
-                <span class="method-start">32774 ms</span>
+                <span class="method-start">24469 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">EmailExist</span>
-                <span class="method-start">54670 ms</span>
+                <span class="method-start">33549 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=EmailExist status=SUCCESS method=SignUpIndex.EmailExist()[pri:0, instance:com.index...)</span>
-                <span class="method-start">66500 ms</span>
+                <span class="method-start">45308 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test before">
+                <span class="method-name">one(org.testng.TestRunner@e9319f)</span>
+                <span class="method-start">50089 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.index.SignUpIndex.SucessfullySignUp() throws java.lang.InterruptedException, org.tes...)</span>
+                <span class="method-start">50090 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SucessfullySignUp</span>
+                <span class="method-start">65985 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=SucessfullySignUp status=FAILURE method=SignUpIndex.SucessfullySignUp()[pri:0, inst...)</span>
+                <span class="method-start">181366 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">testResults</span>
-                <span class="method-start">67300 ms</span>
+                <span class="method-start">181396 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

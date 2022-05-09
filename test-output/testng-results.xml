@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" total="3" passed="2">
   <reporter-output>
     <line>
       <![CDATA[<br>current test- TC-1.. Verify incorrect email validation message.]]>
@@ -19,24 +19,39 @@
     <line>
       <![CDATA[<br>Step 1 : Verify exist email validation message.<br>]]>
     </line>
+    <line>
+      <![CDATA[<br>current test- TC-3. Verify 'Account created sucessfully validation message'.]]>
+    </line>
+    <line>
+      <![CDATA[Current Xml Suite is:---->Signup Test Cases]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#ff0000>Fail                  </font></strong><img src='C:\Users\BAPS\git\FrameworkDemo\report-imgs\fail.png' alt='fail' height='15' width='15'/>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b><i>Failure Reason:</b></i>]]>
+    </line>
+    <line>
+      <![CDATA[<br><Strong><font color=#ff0000>org.openqa.selenium.NoSuchElementException: Timed out after 80 seconds. Unable to locate the element</font></strong>]]>
+    </line>
   </reporter-output>
-  <suite name="Signup Test Cases" duration-ms="66923" started-at="2022-05-07T08:20:35Z" finished-at="2022-05-07T08:21:42Z">
+  <suite name="Signup Test Cases" duration-ms="181070" started-at="2022-05-09T12:04:04Z" finished-at="2022-05-09T12:07:06Z">
     <groups>
     </groups>
-    <test name="TC-1.. Verify incorrect email validation message." duration-ms="32366" started-at="2022-05-07T08:20:35Z" finished-at="2022-05-07T08:21:08Z">
+    <test name="TC-1.. Verify incorrect email validation message." duration-ms="24110" started-at="2022-05-09T12:04:04Z" finished-at="2022-05-09T12:04:29Z">
       <class name="com.index.SignUpIndex">
-        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@146e1f4]" name="one" is-config="true" duration-ms="1" started-at="2022-05-07T13:50:35Z" finished-at="2022-05-07T13:50:35Z">
+        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@76ae34]" name="one" is-config="true" duration-ms="0" started-at="2022-05-09T17:34:04Z" finished-at="2022-05-09T17:34:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1e18e38]]>
+                <![CDATA[org.testng.TestRunner@1ebc9d8]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- one -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@146e1f4]" name="setUp" is-config="true" duration-ms="17687" started-at="2022-05-07T13:50:35Z" finished-at="2022-05-07T13:50:53Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@76ae34]" name="setUp" is-config="true" duration-ms="10005" started-at="2022-05-09T17:34:04Z" finished-at="2022-05-09T17:34:14Z">
           <params>
             <param index="0">
               <value>
@@ -45,7 +60,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@1e18e38]]>
+                <![CDATA[org.testng.TestRunner@1ebc9d8]]>
               </value>
             </param>
           </params>
@@ -58,18 +73,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="InvalidEmail()[pri:0, instance:com.index.SignUpIndex@146e1f4]" name="InvalidEmail" duration-ms="9780" started-at="2022-05-07T13:50:53Z" finished-at="2022-05-07T13:51:03Z">
+        <test-method status="PASS" signature="InvalidEmail()[pri:0, instance:com.index.SignUpIndex@76ae34]" name="InvalidEmail" duration-ms="9329" started-at="2022-05-09T17:34:14Z" finished-at="2022-05-09T17:34:24Z">
           <reporter-output>
             <line>
               <![CDATA[<br>Step 1 : Verify incorrect email validation message.<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- InvalidEmail -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.SignUpIndex@146e1f4]" name="tearDown" is-config="true" duration-ms="4870" started-at="2022-05-07T13:51:03Z" finished-at="2022-05-07T13:51:08Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.SignUpIndex@76ae34]" name="tearDown" is-config="true" duration-ms="4756" started-at="2022-05-09T17:34:24Z" finished-at="2022-05-09T17:34:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=InvalidEmail status=SUCCESS method=SignUpIndex.InvalidEmail()[pri:0, instance:com.index.SignUpIndex@146e1f4] output=<br>Step 1 : Verify incorrect email validation message.<br>]]]>
+                <![CDATA[[TestResult name=InvalidEmail status=SUCCESS method=SignUpIndex.InvalidEmail()[pri:0, instance:com.index.SignUpIndex@76ae34] output=<br>Step 1 : Verify incorrect email validation message.<br>]]]>
               </value>
             </param>
           </params>
@@ -78,31 +93,20 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.index.SignUpIndex -->
     </test> <!-- TC-1.. Verify incorrect email validation message. -->
-    <test name="TC-2. Verify email exist validation message." duration-ms="34516" started-at="2022-05-07T08:21:08Z" finished-at="2022-05-07T08:21:42Z">
+    <test name="TC-2. Verify email exist validation message." duration-ms="25614" started-at="2022-05-09T12:04:29Z" finished-at="2022-05-09T12:04:54Z">
       <class name="com.index.SignUpIndex">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@e9a829]" name="fetchSuiteConfiguration" is-config="true" duration-ms="365" started-at="2022-05-07T13:50:35Z" finished-at="2022-05-07T13:50:35Z">
+        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@13f2bb1]" name="one" is-config="true" duration-ms="1" started-at="2022-05-09T17:34:29Z" finished-at="2022-05-09T17:34:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1c79f09]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@e9a829]" name="one" is-config="true" duration-ms="1" started-at="2022-05-07T13:51:08Z" finished-at="2022-05-07T13:51:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@1c79f09]]>
+                <![CDATA[org.testng.TestRunner@1a590ba]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- one -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@e9a829]" name="setUp" is-config="true" duration-ms="21896" started-at="2022-05-07T13:51:08Z" finished-at="2022-05-07T13:51:30Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@13f2bb1]" name="setUp" is-config="true" duration-ms="9080" started-at="2022-05-09T17:34:29Z" finished-at="2022-05-09T17:34:38Z">
           <params>
             <param index="0">
               <value>
@@ -111,7 +115,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@1c79f09]]>
+                <![CDATA[org.testng.TestRunner@1a590ba]]>
               </value>
             </param>
           </params>
@@ -124,29 +128,182 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="EmailExist()[pri:0, instance:com.index.SignUpIndex@e9a829]" name="EmailExist" duration-ms="11830" started-at="2022-05-07T13:51:30Z" finished-at="2022-05-07T13:51:42Z">
+        <test-method status="PASS" signature="EmailExist()[pri:0, instance:com.index.SignUpIndex@13f2bb1]" name="EmailExist" duration-ms="11759" started-at="2022-05-09T17:34:38Z" finished-at="2022-05-09T17:34:49Z">
           <reporter-output>
             <line>
               <![CDATA[<br>Step 1 : Verify exist email validation message.<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- EmailExist -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.SignUpIndex@e9a829]" name="tearDown" is-config="true" duration-ms="788" started-at="2022-05-07T13:51:42Z" finished-at="2022-05-07T13:51:42Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.SignUpIndex@13f2bb1]" name="tearDown" is-config="true" duration-ms="4774" started-at="2022-05-09T17:34:49Z" finished-at="2022-05-09T17:34:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=EmailExist status=SUCCESS method=SignUpIndex.EmailExist()[pri:0, instance:com.index.SignUpIndex@e9a829] output=<br>Step 1 : Verify exist email validation message.<br>]]]>
+                <![CDATA[[TestResult name=EmailExist status=SUCCESS method=SignUpIndex.EmailExist()[pri:0, instance:com.index.SignUpIndex@13f2bb1] output=<br>Step 1 : Verify exist email validation message.<br>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="testResults()[pri:0, instance:com.index.SignUpIndex@e9a829]" name="testResults" is-config="true" duration-ms="451" started-at="2022-05-07T13:51:42Z" finished-at="2022-05-07T13:51:43Z">
+      </class> <!-- com.index.SignUpIndex -->
+    </test> <!-- TC-2. Verify email exist validation message. -->
+    <test name="TC-3. Verify &#039;Account created sucessfully validation message&#039;." duration-ms="131297" started-at="2022-05-09T12:04:54Z" finished-at="2022-05-09T12:07:06Z">
+      <class name="com.index.SignUpIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@c87b21]" name="fetchSuiteConfiguration" is-config="true" duration-ms="316" started-at="2022-05-09T17:34:04Z" finished-at="2022-05-09T17:34:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@e9319f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="one(org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@c87b21]" name="one" is-config="true" duration-ms="1" started-at="2022-05-09T17:34:54Z" finished-at="2022-05-09T17:34:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@e9319f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- one -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.index.SignUpIndex@c87b21]" name="setUp" is-config="true" duration-ms="15895" started-at="2022-05-09T17:34:54Z" finished-at="2022-05-09T17:35:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.index.SignUpIndex.SucessfullySignUp() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@e9319f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>current test- TC-3. Verify 'Account created sucessfully validation message'.]]>
+            </line>
+            <line>
+              <![CDATA[Current Xml Suite is:---->Signup Test Cases]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="SucessfullySignUp()[pri:0, instance:com.index.SignUpIndex@c87b21]" name="SucessfullySignUp" duration-ms="115356" started-at="2022-05-09T17:35:10Z" finished-at="2022-05-09T17:37:05Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Timed out after 80 seconds. Unable to locate the element]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Timed out after 80 seconds. Unable to locate the element
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:90)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:477)
+	at com.init.Common.highlightElement(Common.java:273)
+	at com.init.Common.clickOn(Common.java:256)
+	at com.indexPage.SignUpIndexPage.ClickGBPcurrency(SignUpIndexPage.java:69)
+	at com.index.SignUpIndex.SucessfullySignUp(SignUpIndex.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@src="/static/media/uk.4dcc5075.jpg"]"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-GKA213I', ip: '192.168.1.143', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:50228}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 79fbe186df9460b13d6c2e444c774c72
+*** Element info: {Using=xpath, value=//*[@src="/static/media/uk.4dcc5075.jpg"]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:40)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:156)
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:69)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:86)
+	... 42 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#ff0000>Fail                  </font></strong><img src='C:\Users\BAPS\git\FrameworkDemo\report-imgs\fail.png' alt='fail' height='15' width='15'/>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b><i>Failure Reason:</b></i>]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#ff0000>org.openqa.selenium.NoSuchElementException: Timed out after 80 seconds. Unable to locate the element</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SucessfullySignUp -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.index.SignUpIndex@c87b21]" name="tearDown" is-config="true" duration-ms="20" started-at="2022-05-09T17:37:05Z" finished-at="2022-05-09T17:37:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SucessfullySignUp status=FAILURE method=SignUpIndex.SucessfullySignUp()[pri:0, instance:com.index.SignUpIndex@c87b21] output=<br></br><Strong><font color=#ff0000>Fail                  </font></strong><img src='C:\Users\BAPS\git\FrameworkDemo\report-imgs\fail.png' alt='fail' height='15' width='15'/>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testResults()[pri:0, instance:com.index.SignUpIndex@c87b21]" name="testResults" is-config="true" duration-ms="271" started-at="2022-05-09T17:37:06Z" finished-at="2022-05-09T17:37:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResults -->
       </class> <!-- com.index.SignUpIndex -->
-    </test> <!-- TC-2. Verify email exist validation message. -->
+    </test> <!-- TC-3. Verify 'Account created sucessfully validation message'. -->
   </suite> <!-- Signup Test Cases -->
 </testng-results>
