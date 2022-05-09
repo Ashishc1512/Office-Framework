@@ -47,7 +47,7 @@ public class SignUpIndex extends SeleniumInit {
 		Thread.sleep(2000);
 	}
 	
-	/*@Test
+	@Test
 	public void SucessfullySignUp() throws InterruptedException	{
 		
 		test.log(LogStatus.PASS, "Step " + (extentStepCount++) + " : Click on Register now button");
@@ -73,9 +73,7 @@ public class SignUpIndex extends SeleniumInit {
 		test.log(LogStatus.PASS, "Step " + (extentStepCount++) + " : Scroll the page till continue button");
 		signupVerificationPage = signupindesPage.ScrollContinue();
 		Thread.sleep(2000);
-		
-		
-		
+				
 		test.log(LogStatus.PASS, "Step " + (extentStepCount++) + " : Click on continue button");
 		signupVerificationPage = signupindesPage.ClickContinue();
 		Thread.sleep(2000);
@@ -113,6 +111,6 @@ public class SignUpIndex extends SeleniumInit {
 		Assert.assertTrue(incorrectmeial,"Verify 'Accout created sucessfully'validation message.");
 		Thread.sleep(2000);
 		
-	}*/
+	}
 	
 }

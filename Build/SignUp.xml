@@ -46,7 +46,7 @@
 			</class>
 		</classes>
 	</test>   
-	<!-- <test name="TC-3. Verify 'Account created sucessfully validation message'.">		
+	 <test name="TC-3. Verify 'Account created sucessfully validation message'.">		
 		<classes>
 			<class name="com.index.SignUpIndex">
 				<methods>
@@ -54,6 +54,6 @@
 				</methods>
 			</class>
 		</classes>
-	</test>     -->
+	</test>     
 	
 </suite>
