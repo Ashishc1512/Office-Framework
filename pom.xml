@@ -143,11 +143,7 @@
 				<configuration>
 				<!-- <testFailureIgnore>true</testFailureIgnore>
 					<forkMode>never</forkMode> -->
-					<suiteXmlFiles>
-						<!-- <suiteXmlFile>Build\Test.xml</suiteXmlFile>    -->
-						<!-- <suiteXmlFile>Build\Login.xml</suiteXmlFile>  -->
- 						<!-- <suiteXmlFile>Build\Template.xml</suiteXmlFile> --> 
- 						<!-- <suiteXmlFile>Build\Login.xml</suiteXmlFile> --> 
+					<suiteXmlFiles> 
  						 <suiteXmlFile>Build\SignUp.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<reportsDirectory>test-output</reportsDirectory>
